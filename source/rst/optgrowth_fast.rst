@@ -227,7 +227,7 @@ policy:
 The last two functions could be merged, as they were in our :doc:`previous implementation <optgrowth>`, but we resisted doing so to increase efficiency.
 
 
-Here's a function that iterates from a starting guess of the value function until the difference between successive outputs is below a particular tolerance level.
+Here's a function that iterates from a starting guess of the value function until the difference between successive iterates is below a particular tolerance level.
 
 .. code-block:: python3
 
